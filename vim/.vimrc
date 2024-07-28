@@ -36,34 +36,6 @@ set clipboard=unnamedplus
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
-
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-
-" https://github.com/scrooloose/nerdtree
-Plugin 'scrooloose/nerdtree'
-
-call vundle#end()            " required
-filetype plugin indent on    " required
-
-"autocmd vimenter * NERDTree.
-map <F2> :NERDTreeToggle<CR>
-"NERDTree открывается всегда
-"autocmd vimenter * NERDTree
-"переключение между табами в NERDTree
-map  <C-l> :tabn<CR>
-map  <C-h> :tabp<CR>
-map  <C-n> :tabnew<CR>
-
-"отключить старый «Press? за помощью".
-let NERDTreeMinimalUI = 1
-let NERDTreeDirArrows = 1
-
 " Улучшенная строка состояния
 "Plugin 'vim-airline/vim-airline'
 "Не в список плагинов
