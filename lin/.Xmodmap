@@ -1,0 +1,5 @@
+#!/bin/sh
+
+setxkbmap -layout "us,ru" -option "grp:caps_toggle,grp_led:scroll"
+# setxkbmap -layout us,ru -variant -option grp:caps_toggle,grp_led:scroll,terminate:ctrl_alt_bksp &
+

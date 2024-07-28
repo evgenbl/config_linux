@@ -1,0 +1,291 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<!-- Created on July 14, 2024 by texi2html 5.0
+texi2html was written by: 
+            Lionel Cons <Lionel.Cons@cern.ch> (original author)
+            Karl Berry  <karl@freefriends.org>
+            Olaf Bachmann <obachman@mathematik.uni-kl.de>
+            and many others.
+Maintained by: Many creative people.
+Send bugs and suggestions to <texi2html-bug@nongnu.org>
+-->
+<head>
+<title>Emacs mode</title>
+
+<meta name="description" content="Emacs mode">
+<meta name="keywords" content="Emacs mode">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="global">
+<meta name="Generator" content="texi2html 5.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+<!--
+a.summary-letter {text-decoration: none}
+blockquote.smallquotation {font-size: smaller}
+div.display {margin-left: 3.2em}
+div.example {margin-left: 3.2em}
+div.lisp {margin-left: 3.2em}
+div.smalldisplay {margin-left: 3.2em}
+div.smallexample {margin-left: 3.2em}
+div.smalllisp {margin-left: 3.2em}
+pre.display {font-family: serif}
+pre.format {font-family: serif}
+pre.menu-comment {font-family: serif}
+pre.menu-preformatted {font-family: serif}
+pre.smalldisplay {font-family: serif; font-size: smaller}
+pre.smallexample {font-size: smaller}
+pre.smallformat {font-family: serif; font-size: smaller}
+pre.smalllisp {font-size: smaller}
+span.nocodebreak {white-space:pre}
+span.nolinebreak {white-space:pre}
+span.roman {font-family:serif; font-weight:normal}
+span.sansserif {font-family:sans-serif; font-weight:normal}
+ul.no-bullet {list-style: none}
+-->
+</style>
+
+
+</head>
+
+<body lang="en" bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#800080" alink="#FF0000">
+
+<h1 class="settitle" align="center">Emacs mode</h1>
+<hr>
+<a name="Top"></a>
+<table class="header" cellpadding="1" cellspacing="1" border="0">
+<tr><td valign="middle" align="left">[ &lt; ]</td>
+<td valign="middle" align="left">[<a href="#Emms_002dmode" title="Next section in reading order"> &gt; </a>]</td>
+<td valign="middle" align="left"> &nbsp; </td>
+<td valign="middle" align="left">[Contents]</td>
+<td valign="middle" align="left">[Index]</td>
+<td valign="middle" align="left">[<a href="#SEC_About" title="About (help)"> ? </a>]</td>
+</tr></table>
+<a name="Emacs-mode"></a>
+<h1 class="top">Emacs mode</h1>
+<p>Дополнения для Emacs
+</p>
+<table class="menu" border="0" cellspacing="0">
+<tr><td align="left" valign="top"><a href="#Emms_002dmode">Emms-mode</a></td><td>&nbsp;&nbsp;</td><td align="left" valign="top"> Музыка в Emacs
+</td></tr>
+<tr><td align="left" valign="top"><a href="#g_t_00d0_0098_00d1_0081_00d1_0087_00d0_00b8_00d1_0081_00d0_00bb_00d0_00b5_00d0_00bd_00d0_00b8_00d0_00b5-_00d0_00bf_00d0_00be_00d0_00bb_00d0_00b8_00d0_00bd_00d0_00be_00d0_00bc_00d0_00be_00d0_00b2">Исчисление полиномов</a></td><td>&nbsp;&nbsp;</td><td align="left" valign="top"></td></tr>
+</table>
+
+<hr size="6">
+<a name="Emms_002dmode"></a>
+<table class="header" cellpadding="1" cellspacing="1" border="0">
+<tr><td valign="middle" align="left">[<a href="#Top" title="Beginning of this chapter or previous chapter"> &lt;&lt; </a>]</td>
+<td valign="middle" align="left">[<a href="#Top" title="Previous section in reading order"> &lt; </a>]</td>
+<td valign="middle" align="left">[<a href="#Top" title="Up section"> Up </a>]</td>
+<td valign="middle" align="left">[<a href="#g_t_00d0_0098_00d1_0081_00d1_0087_00d0_00b8_00d1_0081_00d0_00bb_00d0_00b5_00d0_00bd_00d0_00b8_00d0_00b5-_00d0_00bf_00d0_00be_00d0_00bb_00d0_00b8_00d0_00bd_00d0_00be_00d0_00bc_00d0_00be_00d0_00b2" title="Next section in reading order"> &gt; </a>]</td>
+<td valign="middle" align="left">[<a href="#g_t_00d0_0098_00d1_0081_00d1_0087_00d0_00b8_00d1_0081_00d0_00bb_00d0_00b5_00d0_00bd_00d0_00b8_00d0_00b5-_00d0_00bf_00d0_00be_00d0_00bb_00d0_00b8_00d0_00bd_00d0_00be_00d0_00bc_00d0_00be_00d0_00b2" title="Next chapter"> &gt;&gt; </a>]</td>
+<td valign="middle" align="left"> &nbsp; </td>
+<td valign="middle" align="left"> &nbsp; </td>
+<td valign="middle" align="left"> &nbsp; </td>
+<td valign="middle" align="left"> &nbsp; </td>
+<td valign="middle" align="left">[<a href="#Top" title="Cover (top) of document">Top</a>]</td>
+<td valign="middle" align="left">[Contents]</td>
+<td valign="middle" align="left">[Index]</td>
+<td valign="middle" align="left">[<a href="#SEC_About" title="About (help)"> ? </a>]</td>
+</tr></table>
+<a name="Emms_002dmode-1"></a>
+<h1 class="centerchap" align="center">Emms-mode</h1>
+<p>Music in Emacs
+</p>
+
+<p>Add all your music to a playlist by invoking:
+</p>
+<p>- M-x emms-add-directory-tree RET
+</p>
+<p>- ~/my_music_directory/ RET
+</p>
+<p>- M-x emms-playlist-mode-go
+</p>
+
+<p>Проигрывать музыку там, где я провожу большую часть своего т.е. в emacs.
+</p>
+<p>Погуглил, полазил по просторам инета и нашел замечательную штуковину:
+</p>
+<p>- EMMS(Emacs Multimedia System)
+</p>
+
+<p>Возможности сей штуковины:
+</p>
+<p>Она абсолютно бесплатна(а что вы ожидаете от плагина к emacs?)
+</p>
+<p>Поддерживает аудио форматы: MP3, Ogg Vorbis, FLAC
+</p>
+<p>Поддерживает видео форматы: MPEG, WMV, MOV, AVI, OGM, MKV
+</p>
+<p>Есть управление плейлистами
+</p>
+<p>Написано сие чудо на elisp =)
+</p>
+<p>Ставится следующим образом:
+</p>
+<p>Топаем в каталог, где у нас лежат все установленные emacs расширения(у меня это ~/.emacs.d/) и выполняем там:
+</p>
+<p>- git clone git://git.sv.gnu.org/emms.git
+</p>
+<p>Затем в вашем конфиге emacs пишем следующее:
+</p>
+<p>(add-to-list &rsquo;load-path &quot;~/.emacs.d/emms/&quot;)
+</p>
+<p>(require &rsquo;emms-setup)
+</p>
+<p>(emms-standard)
+</p>
+<p>(emms-default-players)
+</p>
+
+<p>На этом установка закончена.
+</p>
+<p>Что б освоить все фишки нужно ковырять вот этот мануал, но основные команды это:
+</p>
+<p>emms-play-file, emms-play-directory.
+</p>
+<p>Так же, есть emms-playlist-mode, который если активировать, то можно управлять плейлистом горячими клавишами(например, n - след. трек, p- предыдущий трек).
+</p>
+<p>https://barabansheg.blogspot.com/2012/09/emacs.html
+</p>
+<p>&mdash;
+</p>
+<hr>
+<a name="g_t_00d0_0098_00d1_0081_00d1_0087_00d0_00b8_00d1_0081_00d0_00bb_00d0_00b5_00d0_00bd_00d0_00b8_00d0_00b5-_00d0_00bf_00d0_00be_00d0_00bb_00d0_00b8_00d0_00bd_00d0_00be_00d0_00bc_00d0_00be_00d0_00b2"></a>
+<table class="header" cellpadding="1" cellspacing="1" border="0">
+<tr><td valign="middle" align="left">[<a href="#Emms_002dmode" title="Beginning of this chapter or previous chapter"> &lt;&lt; </a>]</td>
+<td valign="middle" align="left">[<a href="#Emms_002dmode" title="Previous section in reading order"> &lt; </a>]</td>
+<td valign="middle" align="left">[<a href="#Top" title="Up section"> Up </a>]</td>
+<td valign="middle" align="left">[ &gt; ]</td>
+<td valign="middle" align="left">[ &gt;&gt; ]</td>
+<td valign="middle" align="left"> &nbsp; </td>
+<td valign="middle" align="left"> &nbsp; </td>
+<td valign="middle" align="left"> &nbsp; </td>
+<td valign="middle" align="left"> &nbsp; </td>
+<td valign="middle" align="left">[<a href="#Top" title="Cover (top) of document">Top</a>]</td>
+<td valign="middle" align="left">[Contents]</td>
+<td valign="middle" align="left">[Index]</td>
+<td valign="middle" align="left">[<a href="#SEC_About" title="About (help)"> ? </a>]</td>
+</tr></table>
+<a name="D_0098N_0081N_0087D_00b8N_0081D_00bbD_00b5D_00bdD_00b8D_00b5-D_00bfD_00beD_00bbD_00b8D_00bdD_00beD_00bcD_00beD_00b2"></a>
+<h1 class="centerchap" align="center">Исчисление полиномов</h1>
+<p>bla
+</p><hr size="6">
+<a name="SEC_About"></a>
+<table class="header" cellpadding="1" cellspacing="1" border="0">
+<tr><td valign="middle" align="left">[<a href="#Top" title="Cover (top) of document">Top</a>]</td>
+<td valign="middle" align="left">[Contents]</td>
+<td valign="middle" align="left">[Index]</td>
+<td valign="middle" align="left">[<a href="#SEC_About" title="About (help)"> ? </a>]</td>
+</tr></table>
+<h1>About This Document</h1>
+
+<p>
+  This document was generated on <i>July 14, 2024</i> using <a href="http://www.nongnu.org/texi2html/"><i>texi2html 5.0</i></a>.
+</p>
+<p>
+  The buttons in the navigation panels have the following meaning:
+</p>
+<table border="1">
+  <tr>
+    <th> Button </th>
+    <th> Name </th>
+    <th> Go to </th>
+    <th> From 1.2.3 go to</th>
+  </tr>
+  <tr>
+    <td align="center"> [ &lt;&lt; ] </td>
+    <td align="center">FastBack</td>
+    <td>Beginning of this chapter or previous chapter</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td align="center"> [ &lt; ] </td>
+    <td align="center">Back</td>
+    <td>Previous section in reading order</td>
+    <td>1.2.2</td>
+  </tr>
+  <tr>
+    <td align="center"> [ Up ] </td>
+    <td align="center">Up</td>
+    <td>Up section</td>
+    <td>1.2</td>
+  </tr>
+  <tr>
+    <td align="center"> [ &gt; ] </td>
+    <td align="center">Forward</td>
+    <td>Next section in reading order</td>
+    <td>1.2.4</td>
+  </tr>
+  <tr>
+    <td align="center"> [ &gt;&gt; ] </td>
+    <td align="center">FastForward</td>
+    <td>Next chapter</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td align="center"> [Top] </td>
+    <td align="center">Top</td>
+    <td>Cover (top) of document</td>
+    <td> &nbsp; </td>
+  </tr>
+  <tr>
+    <td align="center"> [Contents] </td>
+    <td align="center">Contents</td>
+    <td>Table of contents</td>
+    <td> &nbsp; </td>
+  </tr>
+  <tr>
+    <td align="center"> [Index] </td>
+    <td align="center">Index</td>
+    <td>Index</td>
+    <td> &nbsp; </td>
+  </tr>
+  <tr>
+    <td align="center"> [ ? ] </td>
+    <td align="center">About</td>
+    <td>About (help)</td>
+    <td> &nbsp; </td>
+  </tr>
+</table>
+
+<p>
+  where the <strong> Example </strong> assumes that the current position is at <strong> Subsubsection One-Two-Three </strong> of a document of the following structure:
+</p>
+
+<ul>
+  <li> 1. Section One
+    <ul>
+      <li>1.1 Subsection One-One
+        <ul>
+          <li>...</li>
+        </ul>
+      </li>
+      <li>1.2 Subsection One-Two
+        <ul>
+          <li>1.2.1 Subsubsection One-Two-One</li>
+          <li>1.2.2 Subsubsection One-Two-Two</li>
+          <li>1.2.3 Subsubsection One-Two-Three &nbsp; &nbsp;
+            <strong>&lt;== Current Position </strong></li>
+          <li>1.2.4 Subsubsection One-Two-Four</li>
+        </ul>
+      </li>
+      <li>1.3 Subsection One-Three
+        <ul>
+          <li>...</li>
+        </ul>
+      </li>
+      <li>1.4 Subsection One-Four</li>
+    </ul>
+  </li>
+</ul>
+
+<hr>
+<p>
+ <font size="-1">
+  This document was generated on <i>July 14, 2024</i> using <a href="http://www.nongnu.org/texi2html/"><i>texi2html 5.0</i></a>.
+ </font>
+ <br>
+
+</p>
+</body>
+</html>

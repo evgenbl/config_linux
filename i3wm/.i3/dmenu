@@ -1,0 +1,30 @@
+#!/bin/sh
+#
+# Config was made by Necromant
+# shell scipt to prepend demenu some customization
+
+
+
+# # ekse2
+#exec $(dmenu_path | dmenu -i -nb '#000000' -nf '#8f8f8f' -sb '#ad7fa8' -sf '#d0d0d0'  
+#	-l 0 && eval "exec $exe")
+
+# # ekse2-light
+# exec $(dmenu_path | dmenu -i -nb '#3c3c3c' -nf '#8f8f8f' -sb '#ad7fa8' -sf '#d0d0d0'
+# 	-l 0 && eval "exec $exe")
+
+# # Solorised
+#exec $(dmenu_path | dmenu -i -nb '#002b36' -nf '#839496' -sb '#b58900' -sf '#d0d0d0'  
+#	-l 0 && eval "exec $exe")
+
+# # Commune
+#exec $(dmenu_path | dmenu -i -nb '#3c3c3c' -nf '#d5b210' -sb '#9a0000' -sf '#d5b210'  
+#	-l 0 && eval "exec $exe")
+
+# # Vertex
+#exec $(dmenu_path | dmenu -i -nb '#3F4042' -nf '#8f8f8f' -sb '#1C7BCB' -sf '#d0d0d0'
+#	-l 0 && eval "exec $exe")
+
+# # zBlackout-perple
+exec $(dmenu_path | dmenu -i -nb '#4A4A4A' -nf '#8f8f8f' -sb '#7D5CC4' -sf '#d0d0d0'
+	-l 0 && eval "exec $exe")

@@ -1,0 +1,26 @@
+#!/bin/sh
+
+while true; do
+    xsetroot -name "$( date +"%F %R" )"
+    sleep 1m    # Время обновления
+done &
+
+
+
+
+SSH_ADD=/usr/bin/ssh-add
+if [ -x "$SSH_ADD" -a -S "${SSH_AUTH_SOCK-}" ] &&
+   [ -r "$HOME/.ssh/id_dsa" -o \
+     -r "$HOME/.ssh/id_ecdsa" -o \
+     -r "$HOME/.ssh/id_ed25519" -o \
+     -r "$HOME/.ssh/id_rsa" ] &&
+   [ $("$SSH_ADD" -L 2>/dev/null |grep -c ^ssh-) -eq 0 ]; then
+	"$SSH_ADD" -c
+fi
+unset SSH_ADD
+
+feh --bg-scale /home/jenit/mate_1920x1080.png
+
+setxkbmap -layout "us,ru" -option "grp:caps_toggle,grp_led:scroll"
+#setxkbmap -layout us,ru -variant -option grp:caps_toggle,grp_led:scroll,terminate:ctrl_alt_bksp &
+

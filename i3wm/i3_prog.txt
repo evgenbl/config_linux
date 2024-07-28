@@ -1,0 +1,1 @@
+sudo pacman -S termite ranger vim moc mc xfce4-power-manager abiword youtube-dl nano wget scrot feh w3m atool mediainfo gnumeric vlc paromtv xpdf 

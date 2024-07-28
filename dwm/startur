@@ -1,0 +1,16 @@
+#!/bin/sh
+#
+# fluxbox startup-script:
+#
+# Lines starting with a '#' are ignored.
+
+# Change your keymap:
+xmodmap "/home/jenit/.Xmodmap"
+
+setxkbmap -layout "us,ru" -option "grp:caps_toggle,grp_led:scroll"
+# setxkbmap -layout us,ru -variant -option grp:caps_toggle,grp_led:scroll,terminate:ctrl_alt_bksp &
+
+while true; do
+    xsetroot -name "$( date +"%F %R" )"
+    sleep 1m    # Время обновления
+done &

@@ -1,0 +1,5 @@
+order += "ethernet enp1s0"
+ethernet enp1s0 {
+        format_up = "E: %ip (%speed)"
+        format_down = "E: down"
+}
