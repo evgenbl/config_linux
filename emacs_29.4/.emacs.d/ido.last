@@ -1,0 +1,91 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/jenit/notes/" . "emscs_org-mode/")
+ ("/home/jenit/Gitflic/" . "texinfo/")
+ ("/home/jenit/Gitflic/latex/" . "English/")
+ ("/home/" . "jenit/")
+ ("/home/jenit/" . "notes/")
+ ("/" . "home/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/"
+ "/home/jenit/notes/emscs_org-mode/"
+ "/home/jenit/Gitflic/texinfo/"
+ "/home/jenit/Gitflic/"
+ "/home/jenit/"
+ "/home/jenit/obsidian/"
+ "/home/jenit/obsidian/NEED/"
+ "/home/jenit/Documents/"
+ "/home/jenit/Downloads/"
+ "/home/jenit/Gitflic/latex/English/"
+ "/home/jenit/jenit/Documents/"
+ "/home/jenit/Gitflic/latex/"
+ "/home/jenit/Gitflic/latex/beamer/"
+ "/home/jenit/Videos/"
+ "/home/jenit/Music/"
+ "/home/ftp/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "org-mode.org"
+ "rzip-программа_сжатия_больших_фалов.md"
+ "pamixer.md"
+ "neofetch.md"
+ "test1.html"
+ "org.org"
+ ".#org.org"
+ "belet_vohr_weapon.md"
+ "belet_vohr.md"
+ "beamer1.log"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/jenit/" (26259 8140 388048 2000) ".local/" "notes/" "flash_1G/" ".pki/" ".mozilla/" ".dbus/" "#*message*-20240713-211236#" ".lyx/" "Public/" ".texlive2023/" ".screenrc" "Downloads/" ".vscode-oss/" ".gitconfig" ".cache/" "Music/" "Desktop/" ".Xauthority" ".config/" ".xscreensaver" ".lesshst" ".emacs" "Git/" ".serverauth.1201" "UXTerm" ".kde/" "./" "XTerm" ".emacs.d/" "Templates/" "Pictures/" ".gtkrc-2.0" "Documents/" ".hplip/" "Videos/" ".bashrc" "bin/" "pythonProject/" "Gitflic/" "../" ".bash_history")
+
+ ("/home/jenit/notes/emscs_org-mode/" (26257 43820 347528 239000) "terminal.org" ".directory" "ffmpeg .org" "ffmpeg.org" "alt.org" "python.org" "установить время.org" "org-mode.org" "начальная настройка слака.org" "archives.org" "emacs.org" "date.org" "slackware.org" "sublimetext.org" "arch.org" "prog.org" "./" "latex.org" "note.org" "another.org" "../")
+
+ ("/home/jenit/notes/" (26257 43735 807529 551000) "Python/" "notes_need/" "Arch/" "Slack/" "Все_пакеты_GNU.md" "xap_slackware15/" "ap_slackware15/" "date.txt" "emacs/" "alias.md" "kjots.html" "Как завести блог на Jekyll.md" "Личнные/" "abf.md" "Интересное/" "archive/" "Ключи командной строки Convert ImageMagick.md" "Obsidian/" "bookmarks_11.05.2024.html" "uxterm_xterm.md" "сбер/" "LaTeX/" "texinfo/" "GitHub/" "Медицина/" "EN_раскладку_во_Fluxbox.txt" "Alt/" "PostScript.md" "kjots-1.html" "arch+dwm/" "English/" "Daily/" "Win/" "./" "Quarto/" "i3wm/" "Files/" "consol_prog.md" "NEED/" "emscs_org-mode/" "Vim/" "PDF-consol_prog/" "bspwm/" "a_slackware15/" "kde5_slackware15/" "../")
+
+ ("/home/jenit/Desktop/" (26257 41294 768567 430000) ".directory" "./" "setup.org" "../")
+
+ ("/home/jenit/Gitflic/texinfo/" (26254 3993 456197 97000) "test.texi" ".directory" "example.info" "test_html.texi" "example/" "test.html" "test_html.html" "test1.html" ".#test.texi" "tools.txt" "test1.texi" "./" "example2.info" "без_номеров_глав.md" "example1.info" "../")
+
+ ("/home/jenit/Gitflic/" (26252 28660 112848 233000) "quarto2/" "dwm/" "fluxbox/" "latex/" "texinfo/" "./" "i3wm/" "../")
+
+ ("/home/jenit/obsidian/NEED/" (26247 24884 911911 614000) "crontab -e.md" ".directory" "chmod.md" "emacs_hotkey.md" "vim_hotkey1.md" "gv(просмотр файлов PS⁄PDF).md" "zip.md" "xaos.md" "latex.md" "Преамбула LaTeX.md" "Midnight Commander_mc_hotkey.md" "cron.md" "info_system.md" "markdown-mode_emacs.md" "ImageMagick.md" "../" "weather.md" "jekyll_install.md" "xev (коды клавиш).md" "chown.md" "vim_hotkey.md" "Права_доступа.md" "gkrellm(Мониторы GNU Krell).md" "archives.md" "sound.md" "rsynk.md" "pandoc.md" "fdisk.md" "mount_flash.md" "disk_flash_record.md" "i3wm_prog.md" "pamixer.md" "neofetch.md" " выключение, перезагрузка, выход из системы.md" "tar.md" "org-mode_emacs" "xlock.md" "format⁄mount_in_ Linux.md" "./")
+
+ ("/home/jenit/obsidian/" (26247 22688 171945 701000) "сбер/" ".directory" "bspwm/" "Медицина/" "GitHub/" "Все_пакеты_GNU.md" "notes_need/" "pdf/" "Личнные/" "NEED/" "kjots.html" "imagemagick.md" "../" "Arch/" ".trash/" "Files/" ".obsidian/" "Python/" "Как завести блог на Jekyll.md" "gv_key.md" "PDF-consol_prog/" "cp.md" "English/" "bookmarks_11.05.2024.html" "i3wm/" "date.txt" "Ключи командной строки Convert ImageMagick.md" "Slack/" "Quarto/" "LaTeX/" "Win/" "archive/" "abf.md" "Obsidian/" "Vim/" "Alt/" "PostScript.md" "Emacs/" "uxterm_xterm.md" "kde5_slackware15/" "./" "ap_slackware15/" "xap_slackware15/" "Интересное/" "arch+dwm/" "Daily/" "consol_prog.md")
+
+ ("/home/jenit/Downloads/" (26247 17069 785713 939000) "Скачиваем видео с YouTube.py" ".directory" "fluxbox/" "for_quarto/" "../" "ripgrep-all-master.zip" "bashrc1" "судимость.pdf" "fonts/" "./" "наркотики.PDF")
+
+ ("/home/jenit/Documents/" (26246 63962 104449 117000) ".directory" "test.html" "../" "emacs" "Применение специальных средств - палка резиновая, наручники.png" "do_not_question.md" "belet_vohr_weapon.md" "EN_раскладку_во_Fluxbox.txt" "./")
+
+ ("/home/jenit/Music/" (26243 47956 616748 329000) "интернационал.mp3" "vecherna.mp3" "Ян Френкель - Для тебя.mp3" "Наша Дарья - ИНТЕРНАЦИОНАЛ.mp3" "баллада_о_солдате.mp3" "saintwar.mp3" "тоска_по_Родине.mp3" "prostor2.mp3" "Ян Френкель - Калина красная.mp3" "интернационал_русский.mp3" "гимн_ссср_1944.mp3" "марш.mp3" "Ян Френкель - Сахалин.mp3" "uslish.mp3" "neubjesh.mp3" "lovelife.mp3" "iamearth.mp3" "вологда.mp3" "montazhn.mp3" "Ян Френкель - Ноль часов, ноль минут.mp3" "Жди меня.mp3" "kazaki1.mp3" "pesnyaot.mp3" "vesmarsh.mp3" "pdolinam.mp3" "бам.mp3" "Добровольцы.mp3" "officers.mp3" "казаки.mp3" "Смело, товарищи, в ногу!.mp3" "sclwalt3.mp3" "в_лесу_родилась_елочка.mp3" "vstmarch.mp3" "nachrod.mp3" "журавли.mp3" "взветесь_кострами.mp3" "Наша Дарья - Смело товарищи в ногу.mp3" "katyus17.mp3" "с_чего_начинается_Родина.mp3" "leisya.mp3" "22_июня.mp3" "vput10.mp3" "pomoskve.mp3" "Ян Френкель - Скоро осень, за окнами август.mp3" "kakprovo.mp3" "Наша Дарья - Варшавянка.mp3" "podmoskv.mp3" "shstran2.mp3" "stalgrad.mp3" "интернационал_музыка.mp3" "Ян Френкель - Русское поле.mp3" "serezhka.mp3" "melodiy1.mp3" "Гренада.mp3" "maxim.mp3" "sevastop.mp3" "intern.mp3" "vraboche.mp3" "Ян Френкель - А самолёты сами не летают.mp3" "slavank2.mp3" "Жди солдата.mp3" "ya_veru2.mp3" "vzarodin.mp3" "Наша Дарья - Марсельеза.mp3" "офицеры.mp3" "Наша Дарья - Песня о Щорсе - запись с концерта.mp3" "3 танкиста.mp3" "navisote.mp3" "Майя Кристалинская - Топ-топ-топает-малыш.mp3" "прощание_славянки.mp3" "махнем_не_глядя.mp3" "toska.mp3" "nazarech.mp3" "я_верю_друзья.mp3" "Крейсер_Аврора.mp3" "вы_жертвою_пали.mp3" "белая армия,черный барон.mp3" "золотая_мина.mp3" "nuzhna.mp3" "За Дунаем синим.mp3" "intern2.mp3" "vragisoz.mp3" "в_лесу_прифронтовом.mp3" "все_за_Родину.mp3" "manch1.mp3" "wingpray.mp3" "Ян Френкель - Ветер северный.mp3" "Ян Френкель - И все-таки море.mp3" "за_фабричной_заставой.mp3" "А_годы_летят.mp3" "pesnya22.mp3" "марсельеза.mp3" "Варшавянка.mp3" "Алеша.mp3" "odgarmon.mp3" "Довоенный_вальс.mp3" "На братские могилах.mp3" "vy_zhert.mp3" "solnce2.mp3" "Опять плывут куда-то корабли.mp3" "../" "./")
+
+ ("/home/jenit/Gitflic/latex/" (26243 13394 192057 111000) "caja.out" ".directory" "caja.log" "Federico_Tartarini/" "emacs.tex" "consol_prog/" "LaTeX_test/" "../" "Dzen2.tex" "test/" "English/" "бодрящие фразы/" "latex works/" "Примеры/" "preamble_beamer/" "Beamer theme gallery.mhtml" "LaTeX_forma_article/" "English-алфавит,цифры/" "LaTeX Cheat Sheet.tex" "LaTeX+TexStudio+TexWors+install/" "caja.tex" "caja.pdf" "caja.aux" "beamer/" "VB_how_connect_flash/" "./" "VB_full_screen/")
+
+ ("/home/jenit/jenit/Documents/" (26243 13392 207057 141000) ".#org.org" "../" ".#.#org.org" "belet_vohr_weapon.md" "belet_vohr.md" "./")
+
+ ("/home/jenit/Gitflic/latex/English/" (26212 44750 0 0) "main.blg" "45 фраз, подходящих для разговора.tex" "main.fls" "LaTeX_logo_bird.pdf" "40 полезных выражений.aux" "50 неправильных глаголов.tex" "main.log" "main.bbl" "100.aux" "100 английских фраз.tex" "40 полезных выражений.tex" "45 фраз, подходящих для разговора.log" "30 разговорных фраз на английском.tex" "../" "main.tex" "main.fdb_latexmk" "main.synctex.gz" "main.out" "main.aux" "25 фраз для комфортного общения.tex" "main.toc" "main.pdf" "45 фраз, подходящих для разговора.aux" "50.aux" "30 разговорных фраз на английском.aux" "30.aux" "45.aux" "100 английских фраз.aux" "main.run.xml" "25.aux" "50 неправильных глаголов.aux" "40.aux" "./" "40 полезных выражений.log" "25 фраз для комфортного общения.aux" "main.bcf")
+
+ ("/home/jenit/Gitflic/latex/beamer/" (26241 46252 595581 132000) "beamer1.aux" "beamer1.out" "deskprog_kde4.jpg" "beamer1.synctex.gz" "beamer1.nav" "../" "beamer1.toc" "beamer1.log" "beamer1.tex" "beamer.toc" "beamer1.pdf" "./" "rosa12.jpg" "beamer1.snm")
+
+ ("/home/jenit/jenit/" (26241 60879 476354 160000) "../" "Documents/" "./")
+
+ ("/home/jenit/Videos/" (26235 47103 105912 615000) "День выборов, отрывок. Выбора.mp4" "video_2023-11-30_06-38-06.mp4" "Да... жить захочешь, не так раскорячишься.mp4" "подборка_приколов.mp4" "_А_говорил_порожняком_пойдёт_Отрывок_из_фильма_Джентльмены_удачи.mp4" "неуловимый_Джо.mp3" "миграция при Ленине-шутка.mp4" "наши_люди....mp4" "Насреддин в Бухаре.mkv" "разбить_поллитра.mp4" "Как Пригожин взял под контроль Ростов-на-Дону.mp4" "../" "Русь_изначальная.mp4" "'заграница'.mp4" "'запад нам поможет'.mp4" "6 жца сжатое.mp4" "Выборгская сторона _ Дума.mp4" "кина_не_будет.MP4" "золотая_мина.mp4" "праздник_нужен_душе.mp4" "Профессор Преображенский о разрухе в головах.mp4" "IMG_3666.MP4" "грубо говоря,мягко вырыжаясь.mp4" "на_стройке.mp4" "кто не работает тот ест.mp4" "IMG_5025.MP4" "_И_меня_вылечат_Отрывок_из_фильма_Иван_Васильевич_меняет_профессию.mp4" "Взято из Крошки Енота.MP4" "ОМОН.Ростов-24-06-2023.mp4" "its.mp4" "чтобы не вернулись..webm" "Расстрелять нахуй два раза.mp4" "Насреддин в Бухаре 2.mkv" "чтобы не вернулись.mp4" "русо_туристо.MP4" "Несравненная_Аграфена_Заволжская_Людмила_Гурченко_за_Россию_умереть.mp4" "людк_а_людк.MP4" "губит_людей_не_пиво.MP4" "шампанское_по_утрам.mp4" "хорошо.mp4" "Мизулина.mp4" "./" "IMG_4144.MP4" "Вагнер отправляют в Белоруссию.mp4" "Танцуют все.mp4" "lin/" "Сеанс_одновременной_игры_Кавказская_пленница_или_Новые_приключения.mp4" "Выборгская сторона _ Банк.mp4" "Жуков и Павлов.mp4")
+
+ ("/home/ftp/" (25987 20510 0 0) "../" "./")
+
+ ("/home/" (25987 20510 0 0) "../" "ftp/" "./" "jenit/")
+
+ ("/bin/" (25176 35961 0 0) "bash" "zegrep" "rpm" "free" "bunzip2" "ksh" "realpath" "sleep" "paste" "ypdomainname" "ginstall" "sync" "zcat" "chcon" "tar-1.13" "dircolors" "mt-GNU" "timeout" "sh" "zmore" "tcsh" "mail" "rksh" "true" "ln" "dd" "bzip2" "id" "tty" "setterm" "basename" "whoami" "uncompress" "unexpand" "nisdomainname" "loginctl" "dirname" "gzip" "tail" "ping" "chroot" "zfgrep" "nail" "mkdir" "ls" "zdiff" "yes" "base32" "unlink" "chown" "fusermount" "mt-st" "dmesg" "who" "sha512sum" "pidof" "lsblk" "logname" "sed" "jmtpfs" "ntfscmp" "netstat" "loadkeys" "expr" "dnsdomainname" "findmnt" "csplit" "gunzip" "env" "csh" "nohup" "rm" "compress" "sha384sum" "telnet" "du" "../" "uname" "ipmask" "runcon" "users" "which" "echo" "lsmod" "fgrep" "more" "zforce" "ed" "tsort" "truncate" "getopt" "tar" "red" "sulogin" "test" "md5sum" "sort" "killall" "numfmt" "dash" "ntfsinfo" "mv" "lowntfs-3g" "od" "ftp" "grep" "chgrp" "zsh-5.8" "mount" "wdctl" "gzexe" "comm" "shred" "seq" "ntfsfix" "cpio" "install" "cksum" "sha224sum" "mknod" "uniq" "zsh" "stat" "ntfscat" "pathchk" "egrep" "usleep" "elogind-inhibit" "sln" "ping6" "mkfifo" "sha256sum" "base64" "cut" "stty" "ps" "pwait" "sum" "wc" "mt" "tee" "ntfs-3g" "Mail" "fusermount3" "date" "hostid" "df" "rmdir" "dir" "zcmp" "pinky" "xz" "chmod" "link" "rzip" "tr" "shuf" "zless" "groups" "keyctl" "login" "touch" "su" "mktemp" "expand" "arch" "nproc" "awk" "cat" "sha1sum" "nl" "bzcat" "tac" "split" "ntfsls" "cp" "mountpoint" "kill" "join" "head" "bzip2recover" "ash" "[" "hostname" "vdir" "gawk-5.1.1" "printf" "pwd" "ntfs-3g.probe" "ptx" "readlink" "dialog" "printenv" "stdbuf" "ulockmgr_server" "zgrep" "./" "gawk" "false" "b2sum" "pr" "ntfscluster" "nice" "umount" "domainname" "basenc" "fold" "znew" "fmt" "tar-1.34" "factor")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
